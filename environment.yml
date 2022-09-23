@@ -1,0 +1,11 @@
+name: data-engineering-igti
+channels:
+  - defaults
+dependencies:
+  - boto3
+  - pandas
+  - pymongo
+  - requests
+  - pip:
+    - python-dotenv
+    - ipykernel

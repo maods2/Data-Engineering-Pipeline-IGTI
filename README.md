@@ -6,5 +6,25 @@ Development of data engineering pipeline used as final project of my MBA
 > Starting airfow
 
 ````cmd 
->> git commit
+>> cd airflow/ && astro dev start
 ````
+
+> 
+
+````cmd 
+>> 
+````
+
+## Conda env setup
+
+> Instaling
+>  -
+```cmd
+conda env create -f environment.yml
+```
+
+> Activating conda env
+>  -
+```cmd
+conda activate data-engineering-igti
+```
